@@ -75,3 +75,5 @@ processFile(); // ❌ ReferenceError: File name is missing
 processFile("myFile.txt", 42); // ❌ TypeError: File data must be a string
 processFile("myFile.txt", ""); // ❌ Error: File data cannot be empty
 processFile("myFile.txt", "Hello, world!"); // ✅ Should process successfully
+
+//I was able to learn more about using try/catch/finally blocks where needed. This code is the same as the solution, so I did not make any changes.
